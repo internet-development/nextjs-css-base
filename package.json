@@ -2,24 +2,23 @@
   "name": "nextjs-css-base",
   "description": "A starting repository for the Internet Development Studio team. A reduced version of wireframes.internet.dev",
   "engines": {
-    "node": ">=18"
+    "node": ">=20.9.0"
   },
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "dev": "next -p 10000",
     "build": "next build",
-    "start": "PORT=10000 next start",
-    "lint": "next lint"
+    "start": "PORT=10000 next start"
   },
   "dependencies": {
-    "next": "^16.2.2",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@types/node": "25.5.0",
-    "@types/react": "^19.2.14",
-    "typescript": "^6.0.2"
+    "@types/node": "26.6.6",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
   }
 }

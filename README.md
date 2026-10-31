@@ -10,7 +10,7 @@ This version of the template repository was made to be as light as possible.
 
 Start by cloning the repository, or by clicking on **Use this template** above.
 
-You will have wanted to setup your development environment by following steps [here](https://github.com/internet-development/nextjs-css-base/issues/3).
+You will have wanted to setup your development environment by following steps [here](https://github.com/internet-development/nextjs-css-base/issues/3). This template needs Node.js 20.9 or later.
 
 Then run the server
 
@@ -23,12 +23,11 @@ Go to `http://localhost:10000` in your browser of choice.
 
 Enjoy! The template uses `10000` as our `port` for more compatibility with [Render.com](https://render.com)
 
-### Scripts (Optional)
-
-If you need to run node script without running the server, use this example to get started
+For a production build, run
 
 ```sh
-npm run script example
+npm run build
+npm run start
 ```
 
 ### Contact
